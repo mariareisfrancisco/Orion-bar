@@ -42,4 +42,109 @@ video {
 
 /* ====================================
 // base rules
+
+font-family: ofelia-display,sans-serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: ofelia-display,sans-serif;
+font-weight: 400;
+font-style: italic;
+
+font-family: didoni-urw,serif;
+font-weight: 400;
+font-style: normal;
 // ==================================== */
+
+html {
+  scroll-behavior: smooth;
+  font-family: ofelia-display, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  background-color: #19171c;
+  text-align: justify;
+}
+
+.nav-bg {
+  background-color: #19171c7e;
+  position: sticky;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  z-index: 1;
+}
+
+.header-bg {
+  background-image: url(../img/bg-1.jpg);
+  background-repeat: no-repeat;
+  height: 500px;
+  max-width: 1440px;
+}
+
+.small-logo {
+  max-width: 115px;
+}
+
+.nav-large {
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  font-family: didoni-urw, serif;
+  justify-content: space-between;
+  z-index: 2;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .nav-large {
+    display: none;
+  }
+}
+
+h2 {
+  font-family: didoni-urw, serif;
+  font-size: 30px;
+  color: #f4b92f;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+.big-logo {
+  max-width: 500px;
+  transform: translate(0, 120px);
+}
+
+@media (min-width: 425px) {
+  .big-logo {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 425px) {
+  .big-logo {
+    max-width: 200px;
+  }
+}
+
+.small-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.intro {
+  margin-top: 157px;
+  padding-bottom: 65px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.487);
+}
+
+@media (max-width: 425px) {
+  .intro {
+    margin-top: 37px;
+    padding-bottom: 21px;
+  }
+}
+
+p {
+  padding-bottom: 15px;
+}
