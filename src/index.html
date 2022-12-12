@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://use.typekit.net/sxb4wep.css" />
   </head>
   <body>
-    <div class="header-bg">
+    <header class="header-bg">
       <div class="nav-bg">
         <div class="container">
           <div class="row">
@@ -17,10 +17,10 @@
             </div>
             <div class="col-4 col-md-6">
               <nav class="nav-large">
-                <h3>Menu</h3>
-                <h3>Cocktails</h3>
-                <h3>Horaires</h3>
-                <h3>Artiste</h3>
+                <a href="#menu">Menu</a>
+                <a href="#cocktails">Cocktails</a>
+                <a href="#horaires">Horaires</a>
+                <a href="#artiste">Artiste</a>
               </nav>
             </div>
             <div class="col-4 col-md-3">
@@ -45,111 +45,194 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-lg-10 offset-lg-1">
-          <div class="intro">
-            <h2>Notre Bar</h2>
-            <p>
-              Le grand bar se détache sur un fond de verdure omniprésente et les
-              imprimés se mélangent avec grâce, des épais tapis à motifs et aux
-              fauteils luxueux en velours. Le cadre idéal pour une soirée ou
-              vous pourrez déguster un cocktail né de l'imagination de James
-              Winston et shaké à la perfection par les maestros de la mixologie
-              faisont partis de notre bar, l’Orion.
-            </p>
-            <p>
-              Aux beaux jours, le bar extérieur installé sous la majestueuse
-              pergola prend vie et les cocktails sont servis dans les jardins.
-            </p>
+    </header>
+    <main class="page-first-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-10 offset-lg-1">
+            <div class="intro">
+              <h2>Notre Bar</h2>
+              <p>
+                Le grand bar se détache sur un fond de verdure omniprésente et
+                les imprimés se mélangent avec grâce, des épais tapis à motifs
+                et aux fauteils luxueux en velours. Le cadre idéal pour une
+                soirée ou vous pourrez déguster un cocktail né de l'imagination
+                de James Winston et shaké à la perfection par les maestros de la
+                mixologie faisont partis de notre bar, l’Orion.
+              </p>
+              <p id="menu" class="line">
+                Aux beaux jours, le bar extérieur installé sous la majestueuse
+                pergola prend vie et les cocktails sont servis dans les jardins.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-10 offset-lg-1">
+            <h2>Nos Cocktails</h2>
           </div>
         </div>
-        <div class="col-12 col-lg-10 offset-lg-1">
-          <h2>Nos Cocktails</h2>
+        <div class="row">
+          <div class="col-6 col-sm-3 col-lg-2 offset-lg-1">
+            <img src="img/cocktail-fume.jpg" alt="cocktail" />
+          </div>
+          <div class="col-6 col-sm-3 col-lg-2">
+            <img src="img/cocktail-rose.jpg" alt="cocktail" />
+          </div>
+          <div class="col-6 col-sm-3 col-lg-2">
+            <img src="img/cocktail-jaune.jpg" alt="cocktail" />
+          </div>
+          <div class="col-6 col-sm-3 col-lg-2">
+            <img src="img/cocktail-orange.jpg" alt="cocktail" />
+          </div>
+          <div class="col-6 col-sm-3 col-lg-2">
+            <img
+              src="img/cocktail-rouge.jpg"
+              alt="cocktail"
+              class="red-cocktail"
+            />
+          </div>
+          <div class="col-12 col-md-3 offset-md-2 offset-lg-5">
+            <a class="button">Voir le menu</a>
+          </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-6 col-sm-3 col-lg-2 offset-lg-1">
-          <img src="img/cocktail-fume.jpg" alt="cocktail" />
-        </div>
-        <div class="col-6 col-sm-3 col-lg-2">
-          <img src="img/cocktail-rose.jpg" alt="cocktail" />
-        </div>
-        <div class="col-6 col-sm-3 col-lg-2">
-          <img src="img/cocktail-jaune.jpg" alt="cocktail" />
-        </div>
-        <div class="col-6 col-sm-3 col-lg-2">
-          <img src="img/cocktail-orange.jpg" alt="cocktail" />
-        </div>
-        <div class="col-6 col-sm-3 col-lg-2">
-          <img
-            src="img/cocktail-rouge.jpg"
-            alt="cocktail"
-            class="red-cocktail"
-          />
-        </div>
-        <div class="col-12 col-md-3 offset-md-2 offset-lg-5">
-          <p class="button">Voir le menu</p>
+      <div class="main">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-6 offset-lg-4">
+              <h2 class="main-title" id="cocktails">Cocktails Signature</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <img src="img/cocktail_Mat's-hat.jpg" alt="cocktail-signature" />
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="cocktail-text">
+                <p>« Mat’s hat »</p>
+                <p>Inventé par: Robin Maddinson</p>
+                <p>
+                  Réalisé au shaker sur une base de vin rosé de Provence, crème
+                  de cassis de Dijon, jus de citron vert, sirop d’agave, poivre
+                  de Timut.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-6 order-md-2">
+              <img src="img/cocktail_myself.jpg" alt="cocktail-signature" />
+            </div>
+            <div class="col-12 col-md-6 order-1">
+              <div class="cocktail-second-text">
+                <p>« Myself »</p>
+                <p>Inventé par: Josh Aguar</p>
+                <p>
+                  Réalisé au verre avec une base de gin tonic revisité avec un
+                  sirop de concombre, un jus de citron vert, poivre noir de
+                  Kampot, un trait de bitter sherry, et du tonic.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <img src="img/cocktail_high-fly.jpg" alt="cocktail-signature" />
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="cocktail-text">
+                <p>« High Fly »</p>
+                <p>Inventé par: Audrey Taylor</p>
+                <p>
+                  Réalisé au shaker sur une base de tequila, Moutai, jus de
+                  citron vert, Miel de Ruche Saint James, allongé à la bière de
+                  gingembre.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-lg-10 offset-lg-1">
+              <h2 id="artiste">Playlist</h2>
+              <p>
+                Herbert Hancock, plus connu sous le nom de Herbie Hancock est un
+                artiste de jazz qui vient hebdomadairement chez nous pour vous
+                divertir. Il est pianiste et compositeur. Il pourra vous séduire
+                avec sa musique jazz recomposée d’élements de soul, de funk,
+                rock et disco. Vous serez charmés par sa musique dans l’ambiance
+                du bar accompagnée d’un de nos cocktails.
+              </p>
+              <iframe
+                style="border-radius: 12px"
+                src="https://open.spotify.com/embed/playlist/0qhUJAJWZP6ut6TNDMzukO?utm_source=generator&theme=0"
+                width="100%"
+                height="380"
+                frameborder="0"
+                allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-lg-6 offset-lg-4">
-          <h2>Cocktails Signature</h2>
+      <main class="page-second-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="citation-bg">
+                <h2 class="citation-text">
+                  "Jazz is about being in the moment."
+                </h2>
+                <p class="citation-autor" id="horaires">Herbie Hancock</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </main>
+    <footer class="footer-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-4 order-1 order-lg-2">
+            <div class="horaire">
+              <p>
+                Lundi à Jeudi <br />
+                09:00-00:00
+              </p>
+              <p>
+                Vendredi à Samedi <br />
+                09:00-02:00
+              </p>
+              <p>
+                Dimanche <br />
+                10:00-23:30
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 order-2 order-lg-1">
+            <img src="img/logo.svg" alt="logo" />
+          </div>
+          <div class="col-12 col-lg-4 order-3">
+            <div class="adress">
+              <p>
+                Orion Bar, <br />
+                Cranbourn Street, <br />
+                London WC2H 7JH, <br />
+                Royaume-Uni
+              </p>
+              <div class="contact">
+                <a href="tel:0044278999056">+44 27 899 90 56</a><br />
+                <a href="mailto:orionbar@gmail.com">orionbar@gmail.com</a><br />
+                <a
+                  href="https://www.google.com/maps/place/Cranbourn+St,+London,+Royaume-Uni"
+                  >Google Maps</a
+                >
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-12 col-md-6">
-          <img src="img/cocktail_Mat's-hat.jpg" alt="cocktail-signature" />
-        </div>
-        <div class="col-12 col-md-6">
-          <p>
-            « Mat’s hat » Inventé par: Robin Maddinson Réalisé au shaker sur une
-            base de vin rosé de Provence, crème de cassis de Dijon, jus de
-            citron vert, sirop d’agave, poivre de Timut.
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 col-md-6 order-md-2">
-          <img src="img/cocktail_myself.jpg" alt="cocktail-signature" />
-        </div>
-        <div class="col-12 col-md-6 order-1">
-          <p>
-            « Myself » Inventé par: Josh Aguar Réalisé au verre avec une base de
-            gin tonic revisité avec un sirop de concombre, un jus de citron
-            vert, poivre noir de Kampot, un trait de bitter sherry, et du tonic.
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 col-md-6">
-          <img src="img/cocktail_high-fly.jpg" alt="cocktail-signature" />
-        </div>
-        <div class="col-12 col-md-6">
-          <p>
-            « High Fly » Inventé par: Audrey Taylor Réalisé au shaker sur une
-            base de tequila, Moutai, jus de citron vert, Miel de Ruche Saint
-            James, allongé à la bière de gingembre.
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 col-lg-10 offset-lg-1">
-          <h2>Playlist</h2>
-        </div>
-        <div class="col-12">citation</div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-lg-4 order-1 order-lg-2">horraires</div>
-        <div class="col-12 col-lg-4 order-2 order-lg-1">logo</div>
-        <div class="col-12 col-lg-4 order-3">infos</div>
-      </div>
-    </div>
+    </footer>
     <script src="js/main.js" type="module"></script>
   </body>
 </html>
