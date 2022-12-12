@@ -68,22 +68,35 @@ html {
 
 .nav-bg {
   background-color: #19171c7e;
-  position: sticky;
+  position: fixed;
   top: 0;
   left: 0;
+  right: 0;
   padding: 10px;
   z-index: 1;
 }
 
 .header-bg {
   background-image: url(../img/bg-1.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
-  height: 500px;
-  max-width: 1440px;
+  height: 700px;
+}
+
+@media (max-width: 426px) {
+  .header-bg {
+    height: 500px;
+  }
 }
 
 .small-logo {
   max-width: 115px;
+}
+
+@media (max-width: 768px) {
+  .small-logo {
+    display: none;
+  }
 }
 
 .nav-large {
@@ -102,6 +115,24 @@ html {
   }
 }
 
+.search-glass {
+  float: right;
+  width: 30px;
+  margin-top: 3px;
+}
+
+.burger-menu {
+  float: right;
+  width: 30px;
+  margin-top: 3px;
+}
+
+@media (min-width: 769px) {
+  .burger-menu {
+    display: none;
+  }
+}
+
 h2 {
   font-family: didoni-urw, serif;
   font-size: 30px;
@@ -111,19 +142,12 @@ h2 {
 }
 
 .big-logo {
-  max-width: 500px;
-  transform: translate(0, 120px);
+  margin-top: 250px;
 }
 
-@media (min-width: 425px) {
+@media (max-width: 426px) {
   .big-logo {
-    max-width: 500px;
-  }
-}
-
-@media (max-width: 425px) {
-  .big-logo {
-    max-width: 200px;
+    margin-top: 200px;
   }
 }
 
@@ -133,7 +157,7 @@ h2 {
 }
 
 .intro {
-  margin-top: 157px;
+  margin: 157px 0 85px;
   padding-bottom: 65px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.487);
 }
@@ -147,4 +171,19 @@ h2 {
 
 p {
   padding-bottom: 15px;
+}
+
+.button {
+  font-size: 22px;
+  text-align: center;
+  padding: 18px 30px;
+  border: #f4b92f solid 2px;
+  border-radius: 10px;
+  margin: 90px 0;
+}
+
+@media (max-width: 991px) {
+  .red-cocktail {
+    display: none;
+  }
 }
