@@ -208,10 +208,33 @@ p {
   padding: 100px 0 80px;
 }
 
+.box {
+  position: relative;
+}
+
 .cocktail-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  position: absolute;
+  top: 295;
+  left: 0;
+}
+
+.cocktail-second-text {
+  position: absolute;
+  top: 270;
+  right: 0;
+  text-align: right;
+}
+
+.first-cocktail {
+  margin-bottom: 200px;
+}
+
+.second-cocktail {
+  margin-bottom: 200px;
+}
+
+.third-cocktail {
+  margin-bottom: 100px;
 }
 
 .page-second-content {
