@@ -98,7 +98,7 @@
       <div class="main">
         <div class="container">
           <div class="row">
-            <div class="col-12 col-lg-6 offset-lg-4">
+            <div class="col-12">
               <h2 class="main-title" id="cocktails">Cocktails Signature</h2>
             </div>
           </div>
@@ -112,15 +112,13 @@
               </div>
               <div class="col-12 col-md-6">
                 <div class="box">
-                  <div class="cocktail-text">
-                    <p>« Mat’s hat »</p>
-                    <p>Inventé par: Robin Maddinson</p>
-                    <p>
-                      Réalisé au shaker sur une base de vin rosé de Provence,
-                      crème de cassis de Dijon, jus de citron vert, sirop
-                      d’agave, poivre de Timut.
-                    </p>
-                  </div>
+                  <p class="cocktail-text">« Mat’s hat »</p>
+                  <p class="cocktail-text">Inventé par: Robin Maddinson</p>
+                  <p class="cocktail-text">
+                    Réalisé au shaker sur une base de vin rosé de Provence,
+                    crème de cassis de Dijon, jus de citron vert, sirop d’agave,
+                    poivre de Timut.
+                  </p>
                 </div>
               </div>
             </div>
@@ -132,15 +130,13 @@
               </div>
               <div class="col-12 col-md-6 order-1">
                 <div class="box">
-                  <div class="cocktail-second-text">
-                    <p>« Myself »</p>
-                    <p>Inventé par: Josh Aguar</p>
-                    <p>
-                      Réalisé au verre avec une base de gin tonic revisité avec
-                      un sirop de concombre, un jus de citron vert, poivre noir
-                      de Kampot, un trait de bitter sherry, et du tonic.
-                    </p>
-                  </div>
+                  <p class="cocktail-second-text">« Myself »</p>
+                  <p class="cocktail-second-text">Inventé par: Josh Aguar</p>
+                  <p class="cocktail-second-text">
+                    Réalisé au verre avec une base de gin tonic revisité avec un
+                    sirop de concombre, un jus de citron vert, poivre noir de
+                    Kampot, un trait de bitter sherry, et du tonic.
+                  </p>
                 </div>
               </div>
             </div>
@@ -152,10 +148,10 @@
               </div>
               <div class="col-12 col-md-6">
                 <div class="box">
-                  <div class="cocktail-text">
-                    <p>« High Fly »</p>
-                    <p>Inventé par: Audrey Taylor</p>
-                    <p>
+                  <div>
+                    <p class="cocktail-text">« High Fly »</p>
+                    <p class="cocktail-text">Inventé par: Audrey Taylor</p>
+                    <p class="cocktail-text">
                       Réalisé au shaker sur une base de tequila, Moutai, jus de
                       citron vert, Miel de Ruche Saint James, allongé à la bière
                       de gingembre.
@@ -168,7 +164,7 @@
           <div class="row">
             <div class="col-12 col-lg-10 offset-lg-1">
               <h2 id="artiste">Playlist</h2>
-              <p>
+              <p class="artist-text">
                 Herbert Hancock, plus connu sous le nom de Herbie Hancock est un
                 artiste de jazz qui vient hebdomadairement chez nous pour vous
                 divertir. Il est pianiste et compositeur. Il pourra vous séduire
@@ -176,16 +172,18 @@
                 rock et disco. Vous serez charmés par sa musique dans l’ambiance
                 du bar accompagnée d’un de nos cocktails.
               </p>
-              <iframe
-                style="border-radius: 12px"
-                src="https://open.spotify.com/embed/playlist/0qhUJAJWZP6ut6TNDMzukO?utm_source=generator&theme=0"
-                width="100%"
-                height="380"
-                frameborder="0"
-                allowfullscreen=""
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                loading="lazy"
-              ></iframe>
+              <div class="playlist">
+                <iframe
+                  style="border-radius: 12px"
+                  src="https://open.spotify.com/embed/playlist/0qhUJAJWZP6ut6TNDMzukO?utm_source=generator&theme=0"
+                  width="100%"
+                  height="380"
+                  frameborder="0"
+                  allowfullscreen=""
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"
+                ></iframe>
+              </div>
             </div>
           </div>
         </div>
@@ -208,37 +206,44 @@
     <footer class="footer-bg">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-lg-4 order-1 order-lg-2">
+          <div class="col-12 col-md-4 order-1 order-md-2">
             <div class="horaire">
-              <p>
+              <p class="horaire-day">
                 Lundi à Jeudi <br />
                 09:00-00:00
               </p>
-              <p>
+              <p class="horaire-day">
                 Vendredi à Samedi <br />
                 09:00-02:00
               </p>
-              <p>
+              <p class="horaire-day">
                 Dimanche <br />
                 10:00-23:30
               </p>
             </div>
           </div>
-          <div class="col-12 col-lg-4 order-2 order-lg-1">
-            <img src="img/logo.svg" alt="logo" />
+          <div class="col-12 col-md-4 order-2 order-md-1">
+            <div class="footer-logo">
+              <img src="img/logo.svg" alt="logo" />
+            </div>
           </div>
-          <div class="col-12 col-lg-4 order-3">
-            <div class="adress">
-              <p>
+          <div class="col-12 col-md-4 order-3">
+            <div class="contact">
+              <p class="adress">
                 Orion Bar, <br />
                 Cranbourn Street, <br />
                 London WC2H 7JH, <br />
                 Royaume-Uni
               </p>
               <div class="contact">
-                <a href="tel:0044278999056">+44 27 899 90 56</a><br />
-                <a href="mailto:orionbar@gmail.com">orionbar@gmail.com</a><br />
+                <a class="outside-link" href="tel:0044278999056"
+                  >+44 27 899 90 56</a
+                ><br />
+                <a class="outside-link" href="mailto:orionbar@gmail.com"
+                  >orionbar@gmail.com</a
+                ><br />
                 <a
+                  class="outside-link"
                   href="https://www.google.com/maps/place/Cranbourn+St,+London,+Royaume-Uni"
                   >Google Maps</a
                 >

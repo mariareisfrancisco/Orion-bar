@@ -63,7 +63,7 @@ html {
   font-weight: 400;
   color: #fff;
   background-color: #19171c;
-  text-align: justify;
+  text-align: left;
 }
 
 .nav-bg {
@@ -113,6 +113,10 @@ html {
   .nav-large {
     display: none;
   }
+}
+
+a {
+  text-decoration: none;
 }
 
 .search-glass {
@@ -206,23 +210,22 @@ p {
 
 .main-title {
   padding: 100px 0 80px;
+  margin: 0;
+  text-align: center;
 }
-
 .box {
-  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
-
 .cocktail-text {
-  position: absolute;
-  top: 295;
-  left: 0;
+  padding: 0;
 }
 
 .cocktail-second-text {
-  position: absolute;
-  top: 270;
-  right: 0;
   text-align: right;
+  padding: 0;
 }
 
 .first-cocktail {
@@ -237,10 +240,31 @@ p {
   margin-bottom: 100px;
 }
 
+.third-cocktail::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.487);
+  transform: translate(50%, 0);
+  margin-top: 150px;
+}
+
+.playlist {
+  padding: 40px 0 100px;
+}
+
 .page-second-content {
   background-image: url(../img/citation-picture.webp);
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+
+@media (max-width: 426px) {
+  .page-second-content {
+    height: 500px;
+  }
 }
 
 .citation-bg {
@@ -260,4 +284,31 @@ p {
   font-size: 22px;
   color: #ffffff;
   text-align: center;
+}
+
+.footer-bg {
+  padding: 120px 45px;
+}
+
+.horaire {
+  text-align: center;
+}
+
+.horaire-day {
+  padding: 25px 0;
+}
+
+.adress {
+  padding: 25px 0;
+}
+
+.outside-link {
+  display: block;
+}
+
+.footer-logo {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
