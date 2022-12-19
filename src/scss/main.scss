@@ -1,4 +1,5 @@
 @import "bootstrap/scss/bootstrap-grid";
+@import "swiper/swiper";
 /* ====================================
 // css variables
 // ==================================== */
@@ -119,6 +120,13 @@ a {
   text-decoration: none;
 }
 
+.underline-text:hover {
+  border-bottom: solid 1px #fff;
+  width: max-content;
+  animation-name: underline;
+  animation-duration: 1s;
+}
+
 .search-glass {
   float: right;
   width: 30px;
@@ -210,6 +218,7 @@ p {
   max-width: 300px;
   margin-left: 50%;
   transform: translate(-50%, 0);
+  transition-duration: 0.5s;
 }
 
 .button:hover {
@@ -344,9 +353,14 @@ p {
 .citation-text {
   font-family: DidoniURWD-Reg;
   font-size: 60px;
-  color: #ffffff;
+  color: #ffffff99;
   text-align: center;
   margin: 0;
+  transition-duration: 0.5s;
+}
+
+.citation-text:hover {
+  color: #ffffff;
 }
 
 @media (max-width: 991px) {
