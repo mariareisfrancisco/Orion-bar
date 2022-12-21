@@ -1,5 +1,13 @@
 @import "bootstrap/scss/bootstrap-grid";
 @import "swiper/swiper";
+@font-face {
+  font-family: "MasqualeroGrooveW04";
+  src: url("../fontes/MasqualeroGrooveW04-Regular.woff2") format("woff2"),
+    url("../fontes/MasqualeroGrooveW04-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 /* ====================================
 // css variables
 // ==================================== */
@@ -389,7 +397,7 @@ p {
 }
 
 .citation-text {
-  font-family: DidoniURWD-Reg;
+  font-family: didoni-urw, serif;
   font-size: 60px;
   color: #ffffff99;
   text-align: center;
@@ -422,7 +430,7 @@ p {
 }
 
 .citation-autor {
-  font-family: OfeliaDisplay-Light;
+  font-family: ofelia-display, sans-serif;
   font-size: 22px;
   color: #ffffff;
   text-align: center;
