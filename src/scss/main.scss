@@ -57,6 +57,23 @@ font-weight: 400;
 font-style: normal;
 // ==================================== */
 
+.carousel-prev,
+.carousel-next {
+  position: absolute;
+  top: 50%;
+  font-size: 30px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.carousel-prev {
+  left: 20px;
+}
+
+.carousel-next {
+  right: 20px;
+}
+
 html {
   scroll-behavior: smooth;
   font-family: ofelia-display, sans-serif;
@@ -75,13 +92,6 @@ html {
   right: 0;
   padding: 10px;
   z-index: 1;
-}
-
-.header-bg {
-  background-image: url(../img/bg-1.webp);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 700px;
 }
 
 @media (max-width: 426px) {
@@ -154,7 +164,12 @@ h2 {
 }
 
 .big-logo {
-  margin-top: 250px;
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
 }
 
 @media (max-width: 426px) {
